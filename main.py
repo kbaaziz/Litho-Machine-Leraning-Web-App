@@ -75,11 +75,11 @@ raw_open, raw_hidden = load_raw()
 #@st.cache
 def load_treated(file_name):
 
-    if os.path.exists(os.path.join(r"./real_time_predictions", file_name + '.csv')):
-        loaded_df = pd.read_csv(r'./real_time_predictions/'+ file_name + '.csv')
+    if os.path.exists(os.path.join(r"./real_time_predictions", file_name + ".csv")):
+        loaded_df = pd.read_csv(r"./real_time_predictions/"+ file_name + ".csv")
     else:
-        #df_hidden_treated.to_csv(os.path.join(r"./real_time_predictions/" , file_name + '.csv'))
-        loaded_df = pd.read_csv(r'./treated_data/'+ file_name + '.csv')
+        #df_hidden_treated.to_csv(os.path.join(r"./real_time_predictions/" , file_name + ".csv"))
+        loaded_df = pd.read_csv(r"./treated_data/"+ file_name + ".csv")
 
     return loaded_df
 
