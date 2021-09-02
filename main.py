@@ -61,7 +61,7 @@ def load_raw():
     raw_hidden['LITHO'] = raw_hidden["LITHO"].map(lithology_numbers)
 
     test_data = pd.read_csv("./raw_data/open_test.csv", sep=';')
-    test_labels = pd.read_csv(main_directory + "./raw_data/open_target.csv", sep=';')
+    test_labels = pd.read_csv("./raw_data/open_target.csv", sep=';')
     raw_open = pd.merge(test_data, test_labels, on=['WELL', 'DEPTH_MD']) 
     raw_open = raw_open.rename(columns={'FORCE_2020_LITHOFACIES_LITHOLOGY':'LITHO'})
     raw_open['LITHO'] = raw_open["LITHO"].map(lithology_numbers)
