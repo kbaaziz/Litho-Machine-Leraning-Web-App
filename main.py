@@ -236,7 +236,7 @@ if st.sidebar.checkbox('Store results in cache:', True, key='updating_prediction
                     selected_data[models_header[model_name]] = y_hat
 
                     #storing results
-                    #selected_data.to_csv(r'./real_time_predictions/'+ file_name + '.csv')
+                    selected_data.to_csv(r'./real_time_predictions/'+ file_name + '.csv')
 
                     results_data[models_header[model_name]] = selected_data[models_header[model_name]]       #results frame
 
@@ -257,7 +257,7 @@ if st.sidebar.checkbox('Store results in cache:', True, key='updating_prediction
                     selected_data[models_header[model_name]] = y_hat
 
                     #storing results
-                    #selected_data.to_csv(r'./real_time_predictions/'+ file_name + '.csv')
+                    selected_data.to_csv(r'./real_time_predictions/'+ file_name + '.csv')
 
                     results_data[models_header[model_name]] = selected_data[models_header[model_name]]                  #results frame
                     #selected_data.to_csv(r'./real_time_predictions/'+ file_name + '.csv')
