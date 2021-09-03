@@ -4,17 +4,19 @@
 
 * **John Masapanta Pozo** - [JohnMasapantaPozo](https://github.com/JohnMasapantaPozo)
 
-# Streamlit web application
-Interactive Dashboard for my master's thesis project. The project was named 'Machine and Deep learning for lithofacies classification in the North Sea'.
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/johnmasapantapozo/litho-machine-leraning-web-app/root/main.py)
+
+# Interactive Dashboard for my master's thesis project.
+The project was named 'Machine and Deep learning for lithofacies classification in the North Sea'. 
+
+Find the complete repository holding the experimentation, execution, models, utility functions. (https://github.com/JohnMasapantaPozo/Machine-and-Deep-Learning-Applied-to-Geosciences)
 
 
 ## Getting started
 
 ### Users:
 
-The application was creted, deployed, and hosted by Streamlit.
-If you want to try the web application follow the link. [here](https://share.streamlit.io/johnmasapantapozo/litho-machine-leraning-web-app/root/main.py).
+The application was created, deployed, and hosted by Streamlit.
+If you want to try the web application follow the link. [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/johnmasapantapozo/litho-machine-leraning-web-app/root/main.py).
 
 ### Developers:
 
