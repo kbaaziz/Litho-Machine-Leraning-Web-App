@@ -1,6 +1,6 @@
-# Interactive Dashboard for my master's thesis project.
+# Lithofacies Classification by Implemnting Machine and Deep Learning Interactive Dashboard - FORCE Dataset
 
-The project was named 'Machine and Deep learning for lithofacies classification in the North Sea'. 
+The project is named 'Machine and Deep learning for lithofacies classification in the North Sea', which aimed to develop several machine and deep learning models to classify lithofacies in the North Sea. The project was supervised by Arild Buland, UiS adjunct professor and Leader in geophysical methods and anlysis at Equinor. 
 
 Find the complete repository holding the experimentation, execution, models, utility functions. (https://github.com/JohnMasapantaPozo/Machine-and-Deep-Learning-Applied-to-Geosciences)
 
