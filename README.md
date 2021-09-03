@@ -23,9 +23,9 @@ If you want to try the web application follow the link. [![Streamlit App](https:
 
     * `git clone https://github.com/JohnMasapantaPozo/Litho-Machine-Leraning-Web-App.git`
  
-* Once you have cloned the repository, you need to reproduce the proper environment needed by the application. Open your command prompt CMD and recreate the environment by using the 'environment.yml' file:
+* Once you have cloned the repository, you will need to reproduce the environment needed by the application. Open your command prompt CMD and recreate the environment by using the 'environment.yml' file:
 
     * 'conda env create -f environment.yml'
 
-* Once everithing is set you could interact with the code locally and run the app locally by:
+* Once everything is set you could interact with the code locally and run the app locally by:
     * 'streamlit run main.py'
