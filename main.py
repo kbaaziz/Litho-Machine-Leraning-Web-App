@@ -44,7 +44,7 @@ st.sidebar.subheader("SELECTING DATASET")
 selected_dataset = st.sidebar.radio("Select the dataset you want to predict and visualize:", options=['Open dataset', 'Hidden dataset'], index=1)
 
 #loading raw data
-@st.cache
+@st.cache(allow_output_mutation=True, max_entries=10, ttl=3600)
 def load_raw():
 
     #main_directory = 'C:/Users/Alexandra/Desktop/GEOSCIENCES MASTERS PROGRAM/THESIS PROJECT/Thesis/App_thesis/raw_data/'
@@ -72,7 +72,7 @@ raw_open, raw_hidden = load_raw()
 
 
 #loading treated data
-#@st.cache
+@st.cache(allow_output_mutation=True, max_entries=10, ttl=3600)
 def load_treated(file_name):
 
     if os.path.exists(os.path.join(r"./real_time_predictions", file_name + ".csv")):
