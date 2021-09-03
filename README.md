@@ -1,14 +1,13 @@
-# Machine and deep learning lithofacies classification web application
+# Interactive Dashboard for my master's thesis project.
+
+The project was named 'Machine and Deep learning for lithofacies classification in the North Sea'. 
+
+Find the complete repository holding the experimentation, execution, models, utility functions. (https://github.com/JohnMasapantaPozo/Machine-and-Deep-Learning-Applied-to-Geosciences)
+
 
 ## Creator
 
 * **John Masapanta Pozo** - [JohnMasapantaPozo](https://github.com/JohnMasapantaPozo)
-
-
-# Interactive Dashboard for my master's thesis project.
-The project was named 'Machine and Deep learning for lithofacies classification in the North Sea'. 
-
-Find the complete repository holding the experimentation, execution, models, utility functions. (https://github.com/JohnMasapantaPozo/Machine-and-Deep-Learning-Applied-to-Geosciences)
 
 
 ## Getting started
