@@ -1,4 +1,4 @@
-# Lithofacies Classification by Implemnting Machine and Deep Learning Interactive Dashboard - FORCE Dataset
+# Lithofacies Classification by Implementing Machine and Deep Learning Interactive Dashboard - FORCE Dataset
 
 The project is named 'Machine and Deep learning for lithofacies classification in the North Sea', which aimed to develop several machine and deep learning models to classify lithofacies in the North Sea. The project was supervised by Arild Buland, UiS adjunct professor and Leader in geophysical methods and anlysis at Equinor. 
 
